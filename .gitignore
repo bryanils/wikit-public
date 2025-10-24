@@ -1,0 +1,38 @@
+# Environment & Config
+*.env
+*.env.*
+!*.env.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+.claude/
+.claude
+
+# Project specific
+tasks/
+Exports/
+*.json
+!package.json
+!tsconfig.json
+!eslint.config.js
+*.csv
