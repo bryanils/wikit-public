@@ -27,6 +27,7 @@ logs/
 # Claude
 .claude/
 .claude
+CLAUDE.md
 
 # Project specific
 tasks/
